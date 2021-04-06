@@ -8,5 +8,4 @@ This app saves changes in local storage everytime todos are added or deleted, th
 
 ## Live Preview
 
-
-
+https://luispolanco25.github.io/todo-app/
