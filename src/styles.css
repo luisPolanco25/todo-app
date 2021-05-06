@@ -3,7 +3,7 @@ body {
 }
 
 p {
-    margin: 0;
+    margin: 0 20px 0 0;
     cursor: pointer;
 }
 
@@ -15,4 +15,34 @@ p {
 
 .complete {
     text-decoration: line-through;
+}
+
+@media (max-width:700px) {
+    
+    body {
+        padding: 30px;
+    }
+    
+    .row {
+        flex-direction: column;
+    }
+
+    .row > div {
+        width: 100%;
+        margin: 3vh 0 4vh 0;
+    }
+
+    .row div:first-child {
+        order: 2;
+    }
+
+    .row div:last-child {
+        order: 1;
+    }
+} 
+
+@media (max-width: 300px) {
+    body {
+        padding: 15px;
+    }
 }
